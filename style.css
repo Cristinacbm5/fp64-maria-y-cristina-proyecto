@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #fdd8e5;
+    --top-color: #7c78e5;
+    --bottom-color: #e59cc6;
+    --login-color: #e6d7f7;
+}
+.nav {
+    background: var(--bg-color);
+    color: black;
+}
+.modal-body {
+    background: linear-gradient(to bottom, var(--top-color), var(--bottom-color));
+}
+.modal-header{
+    background: var(--top-color);
+}
+.modal-footer{
+    background: var(--bottom-color);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
