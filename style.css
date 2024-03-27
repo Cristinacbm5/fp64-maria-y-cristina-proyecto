@@ -1,3 +1,7 @@
+body {
+    background-color: #f559b4;
+    font-family: 'Comic Sans MS', cursive;
+  }
 :root {
     --bg-color: #fdd8e5;
     --top-color: #7c78e5;
@@ -27,3 +31,6 @@ body {
   footer {
     margin-top: auto;
   }
+  .green-shadow {
+    color: rgb(17, 233, 53); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) }; 

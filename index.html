@@ -10,16 +10,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 <link rel="stylesheet" href="style.css">
+<style>
+        .justificado {
+      text-align: justify;
+    }
+  </style>
 </head>
 <body>
     <nav class="nav justify-content-center">
-        <a class="nav-link active text-dark" aria-current="page" href="index.html">Principal</a>
-        <a class="nav-link text-dark" href="futbol.html">Fútbol</a>
-        <a class="nav-link text-dark" href="padel.html">Pádel</a>
-        <a class="nav-link text-dark" href="baloncesto.html">Baloncesto</a>
-        <a class="nav-link text-dark" href="voleibol.html">Voleibol</a>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Regístrate
+        <a class="nav-link active text-dark" aria-current="page" href="index.html"><b>Principal</b></a>
+        <a class="nav-link text-dark" href="futbol.html"> <b>Fútbol</b></a>
+        <a class="nav-link text-dark" href="padel.html"><b>Pádel</b></a>
+        <a class="nav-link text-dark" href="baloncesto.html"><b>Baloncesto</b></a>
+        <a class="nav-link text-dark" href="voleibol.html"><b>Voleibol</b></a>
+        <button type="button" class="btn btn-primary green-shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i>Regístrate</i>
         </button>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -81,29 +86,30 @@
               <!-- HASTA AQUÍ LA BARRA DE NAVEGACIÓN -->
 
       <div class="container mt-5">
-        <div class="row">
-                    <div class="col-md-6">
-                        <h3>Regístrate en nuestro formulario y después selecciona el deporte que más te guste</h3>
-            <p>Con este proyecto pretendemos facilitar entrenamientos funcionales y aleatorios para mejorar el rendimiento en el deporte que practiques</p>
-          </div>
-                    <!-- AQUÍ HABRÍA QUE PONER OTRA IMAGEN -->
+        <div class ="row">
+                    <div class ="col-md-6">
+                            <div class="justificado"><b> <i><h3 class="green-shadow">Regístrate para una mayor experiencia</i> </h3> <h4 style="font-size: 16px;">Selecciona la disciplina deportiva que practiques para obtener un entrenamiento de fuerza adaptado al deporte que practiques.</h4></b>
+                                <p style="font-family: 'Courier New', Courier, monospace; font-style: italic;"> Con este proyecto pretendemos facilitar entrenamientos funcionales y aleatorios para mejorar el rendimiento en el deporte que practiques</p>
+        </div>
+        </div>
+            
           <div class="col-md-6">
-            <img src="https://via.placeholder.com/600" class="img-fluid half-image" alt="Imagen">
+            <img src="https://www.sanitas.es/media/cen/imagen/grande/img_noticia-entrenamiento-funcional/img-entrenamiento-funcional.jpg" class="img-fluid half-image mb-5 ms-5" alt="Imagen">
           </div>
         </div>
       </div>
       <footer class="bg-body-tertiary text-center text-lg-start">
         <div class="container p-4">
           <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justificado">
               <h5 class="text-uppercase">Quiénes somos</h5>
-                <p>
+              <p style="font-family: 'Courier New', Courier, monospace; font-style: italic;">
                 Somos María y Cristina, alumnas de 4Geeks y esta es la idea que estamos desarrollando para nuestro proyecto final.
               </p>
             </div>
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div class ="col-lg-6 col-md-12 mb-4 mb-md-0 justificado">
               <h5 class="text-uppercase">Qué pretendemos</h5>
-              <p>
+              <p style="font-family: 'Courier New', Courier, monospace; font-style: italic;">
 Que cualquier persona interesada en mejorar en algún deporte en particular pero sin demasiados conocimientos de entrenamientos funcionales pueda encontrar ayuda.
               </p>
             </div>
